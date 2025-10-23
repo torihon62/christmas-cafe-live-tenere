@@ -48,6 +48,7 @@ export default function Home() {
     <>
       {/* <Header /> */}
       <Jumbotron title="" subtitle="" />
+      <div className="pb-8" />
       <Performers />
       <div className="p-0 text-slate-700 font-body">
         <Detail
