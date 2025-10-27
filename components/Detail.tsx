@@ -29,6 +29,7 @@ function Detail(props: Props) {
           {/* <p>z</p> */}
           <p>{props.title}</p>
           <h3 className="mt-5 text-xl font-bold">出演</h3>
+          <p>vocal Mc Gilbert</p>
           <p>vocal 橋爪紋佳</p>
           <p>piano 塚本英之(つかT)</p>
           {props.guests &&

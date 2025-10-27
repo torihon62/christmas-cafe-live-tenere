@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import favicon from "../public/favicon.svg";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,6 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "McGilbert 橋爪紋佳 つかT Xmas Cafe Live",
   description: "ライブの来場予約はこちらから",
+  icons: [
+    {
+      rel: "icon",
+      url: favicon.src,
+    },
+  ],
 };
 
 export default function RootLayout({
