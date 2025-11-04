@@ -2,6 +2,23 @@ import Detail from "@/components/Detail";
 import Form from "@/components/Form";
 import Jumbotron from "@/components/Jumbotron";
 import Performers from "@/components/Performers";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "McGilbert 橋爪紋佳 つかT Xmas Cafe Live",
+  openGraph: {
+    title: "McGilbert 橋爪紋佳 つかT Xmas Cafe Live",
+    siteName: "McGilbert 橋爪紋佳 つかT Xmas Cafe Live",
+    type: "website",
+    description: "ライブチケットのお申し込みはこちらから",
+    url: "https://christmas-cafe-live-tenere.space",
+    images: "https://christmas-cafe-live-tenere.space/assets/background.jpg",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@kuma_ga_suki",
+  },
+};
 
 export default function Home() {
   const date = (
