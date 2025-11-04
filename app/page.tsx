@@ -60,7 +60,11 @@ export default function Home() {
         />
         {/* <Notes /> */}
 
-        <Form href={"https://forms.gle/76vHsNP6DD8N7Uf27"} />
+        <Form
+          href={
+            "https://docs.google.com/forms/d/e/1FAIpQLSe10_OF4fTMHZqtbFP0LcNXj0-P8RFdFVR-ikfqwN4J9rhDjQ/viewform?usp=pp_url&entry.1537262346=0%E4%BA%BA&entry.1791064844=0%E4%BA%BA"
+          }
+        />
       </div>
     </>
   );
